@@ -1,0 +1,41 @@
+@import '../base/misins';
+
+.benefits {
+    padding: 73px 0 83px 0;
+
+    &__header {
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    &__info {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    &__block {
+        width: 277px;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 18px;
+        margin-top: 35px;
+    }
+
+    p {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 20px;
+    }
+
+    span {
+        text-transform: uppercase;
+        color: #FF0000;
+        text-decoration: underline;
+    }
+}
